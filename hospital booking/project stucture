@@ -1,0 +1,29 @@
+hospital-appointment/
+├── backend/ (Spring Boot)
+│   ├── src/main/java/com/hospital/
+│   │   ├── config/
+│   │   ├── controller/
+│   │   ├── dto/
+│   │   ├── exception/
+│   │   ├── model/
+│   │   ├── repository/
+│   │   ├── security/
+│   │   ├── service/
+│   │   └── HospitalApplication.java
+│   └── src/main/resources/
+│       ├── application.properties
+│       └── data.sql
+├── frontend/ (Angular)
+│   ├── src/app/
+│   │   ├── components/
+│   │   │   ├── appointment/
+│   │   │   ├── auth/
+│   │   │   ├── doctor/
+│   │   │   └── patient/
+│   │   ├── guards/
+│   │   ├── interceptors/
+│   │   ├── models/
+│   │   ├── services/
+│   │   └── shared/
+│   └── angular.json
+└── README.md
